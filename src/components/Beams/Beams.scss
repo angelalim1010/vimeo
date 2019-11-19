@@ -1,10 +1,13 @@
 .beams-container{
     display: flex;
     flex-direction: row;
-    margin: 5em;
-    justify-content: center;
-    padding: 3em;
-    .monsoon-img{
+
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    margin: auto;
+    .beams-img{
         padding: 2em;
     }
     // .text-container{

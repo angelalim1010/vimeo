@@ -9,8 +9,10 @@ class Homepage extends Component{
         return(
             <div>
                 <Monsoon/>
+                <div className = "gray-background">
+                     <Beams/>
+                </div>
                 <div className = "gray-gradient">
-                    <Beams/>
                     <Move/>
                 </div>
             </div>
