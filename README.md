@@ -3,11 +3,15 @@ Vimeo Coding Challenge for 2020 Summer Internship
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## How to run
-First install the dependencies
+First clone the repo
+```
+git clone https://github.com/angelalim1010/vimeo.git
+```
+Second install the dependencies
 ```
 npm install
 ```
-Second run the program
+Lastly run the program
 ```
 npm start
 ```
