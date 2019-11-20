@@ -1,0 +1,90 @@
+.carousel-inner > .item {
+    height: 400px;
+ }
+  .background{
+      background-size: cover;
+      height: 20%;
+      filter: blur(50px);
+  }
+  .d-block w-100{
+        opacity: 50%;
+  }
+
+  .trustedMechCarousel{
+    width: 100%;
+    height: 100%;
+  }
+  .carouselCont{
+    background-color: #3f3f3f;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    padding: 10%;
+  }
+  
+  .backgroundImgCont{
+    // float: left !important;
+    width: 20%;
+    filter: blur(50px);
+
+  }
+  .ImgCont{
+    float: left !important;
+    width: 20%;
+  }
+  
+  .TextCont{
+    // padding: 1% !important;
+    position: relative;
+    height: 50%;
+    right: 4%;
+    width: 50%;
+    font-size: 25px;
+
+  }
+  .btn-secondary{
+    position: relative;
+    margin: 5%;
+    left: 20%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    }
+  .btn-secondary:hover{
+      background-color: transparent;
+  }
+  .carousel-caption{
+    position: relative !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 75% !important;
+  }
+  
+  .TextCont p{
+    color: rgb(202, 202, 202) !important;
+  }
+  
+  .TextCont h3{
+    color: white !important;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after{
+    content: '>';
+    font-size: 55px;
+    color: black;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: white;
+  }
